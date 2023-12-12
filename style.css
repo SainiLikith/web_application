@@ -1,0 +1,100 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+body{
+    background-color: black;
+}
+.global-notice{
+    
+    background-color: orangered;
+    color: white;
+    padding: 4px 50px 4px 4px;
+    font-size: 17px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    overflow:hidden ;
+    border-radius: 7px;
+}
+.main-video .logo_hero {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 100%;
+  opacity: 1;
+    color: white;
+    text-align: center;
+  
+    z-index: 3;
+    transform: translate(-50%,calc(-50% - 47.5px));
+}
+
+.global-notice a{
+    color:#fff !important;
+    text-decoration: underline;
+}
+.logo_hero.h1{
+    font-size: 4.2rem;
+    font-weight: 900;
+    color: tomato;
+}
+/* @media only screen and (max-width: 900px){
+p, .p {
+    font-weight: 500px;
+}}
+@media only screen and (max-width:768px){
+        .global-notice{ 
+            padding: 4px 20px 4px 4px;
+            width:1000px;
+}} */
+
+
+
+/* .global-notice{
+    padding: 4px 50px 4px 4px;
+    height: 40px;
+    width: 700px;
+    background-color: #d53417;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .4s;
+    color: white;
+}
+
+.global-notice a{
+    color:#fff !important;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 900px){
+p, .p {
+    font-weight: 500px;
+}}
+@media only screen and (max-width:768px){
+        .global-notice{ 
+            padding: 4px 20px 4px 4px;
+            width:1000px;
+}}
+
+
+.main-video{
+   background-image: url("L:\Downloads\master-theogroup-veroriginal-v2.mp4");
+    background-size: cover; 
+    height: 100vh;
+    width: 100%;
+    
+} 
+ */
